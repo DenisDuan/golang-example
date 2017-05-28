@@ -4,6 +4,7 @@ import "fmt"
 
 func main() {
 
+	// Using range over a "slice/array"
 	nums := []int{1, 2, 3}
 	sum := 0
 
@@ -19,6 +20,7 @@ func main() {
 		}
 	}
 
+	// Using range over a "map"
 	kvs := map[string]string{"a": "apple", "b": "banana"}
 
 	for k, v := range kvs {
